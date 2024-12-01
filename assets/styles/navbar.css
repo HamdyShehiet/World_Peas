@@ -8,7 +8,7 @@
     font-family: "Inter", sans-serif */
 }
 :root{
-    --wihite:#FFFFFF;
+    --white:#FFFFFF;
     --black:#000000;
     --green:#426B1F;
     --gainsboro:#E6E6E6;
@@ -19,7 +19,7 @@
     margin: auto;
 }
 body{
-    background-color: var(--wihite);
+    background-color: var(--white);
 }
 header{
     position: sticky;
@@ -55,7 +55,7 @@ header .container nav ul a.basket{
     padding: 15px 40px;
     font-weight: 600;
     background-color:var(--green);
-    color: var(--wihite);
+    color: var(--white);
     border-radius: 8px;
 }
 /* @media (max-width:991px){
