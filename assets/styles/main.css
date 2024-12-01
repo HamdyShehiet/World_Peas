@@ -17,6 +17,7 @@
 .container{
     padding: 0 5%;
     margin: auto;
+    overflow: hidden;
 }
 body{
     background-color: var(--wihite);
@@ -85,7 +86,7 @@ img{
     font-weight: 600;
 }
 .what-we-believe .container article{
-    width: 70%;
+    width: 65%;
 }
 .what-we-believe .container article p{
     margin-bottom: 20px;
@@ -100,7 +101,7 @@ img{
 .what-we-believe .container{
     flex-wrap: wrap;
 }
-    .what-we-believe .container article{
-        width: 100%;
-    }
+.what-we-believe .container article{
+    width: 100%;
+}
 }
