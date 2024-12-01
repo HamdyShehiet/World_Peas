@@ -57,17 +57,11 @@ img{
     padding: 41px 0;
 }
 .some-vegetables .container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 40px;
-}
-.some-vegetables .container figure{
-    width: 50%;
-}
-.some-vegetables .container .col{
-    width: 40%;
 }
 .some-vegetables .container figure figcaption{
     margin-top: 20px;
@@ -76,14 +70,37 @@ img{
     font-weight: 500;
     line-height: 22.4px;
 }
+.what-we-believe{
+    padding: 41px 0 20px 0;
+}
+.what-we-believe .container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-family: "Inter", sans-serif;
+}
+.what-we-believe .container h2{
+    line-height: 22.4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.what-we-believe .container article{
+    width: 70%;
+}
+.what-we-believe .container article p{
+    margin-bottom: 20px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 400;
+}
 @media (max-width:768px){
-    .some-vegetables .container figure{
-        width: 100%;
-    }
-    .some-vegetables .container .col{
+.some-vegetables .container{
+    grid-template-columns:  1fr;
+}
+.what-we-believe .container{
+    flex-wrap: wrap;
+}
+    .what-we-believe .container article{
         width: 100%;
     }
 }
-/* @media (max-width:991px){
-
-} */
