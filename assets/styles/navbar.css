@@ -45,6 +45,7 @@ header .container nav ul{
     gap: 40px;
 }
 header .container nav ul a{
+    display: inline-block;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
