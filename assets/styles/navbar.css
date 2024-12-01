@@ -22,8 +22,9 @@ body{
     background-color: var(--wihite);
 }
 header{
+    position: sticky;
+    top: 0;
     padding: 35px 0;
-    /* background-color: #426B1F; */
 }
 header .container{
     display: flex;
