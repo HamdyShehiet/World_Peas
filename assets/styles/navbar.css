@@ -4,8 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    /* font-family: "Newsreader", serif;
-    font-family: "Inter", sans-serif */
 }
 :root{
     --white:#FFFFFF;
@@ -24,7 +22,9 @@ body{
 header{
     position: sticky;
     top: 0;
+    z-index: 100;
     padding: 35px 0;
+    background-color: var(--white);
 }
 header .container{
     display: flex;
@@ -43,6 +43,11 @@ header .container nav ul{
     display: flex;
     align-items: center;
     gap: 40px;
+}
+@media (max-width:991px){
+    header .container nav ul{
+        display: none;
+    }
 }
 header .container nav ul a{
     display: inline-block;
