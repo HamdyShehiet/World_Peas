@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Newsreader", serif;
+}
+:root{
+    --wihite:#FFFFFF;
+    --black:#000000;
+    --green:#426B1F;
+    --gainsboro:#E6E6E6;
+    --dimgray:#6D6D6D;
+}
+.container{
+    padding: 0 4%;
+    margin: auto;
+}
