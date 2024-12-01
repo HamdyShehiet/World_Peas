@@ -90,7 +90,34 @@ img{
     padding: 15px 0 20px 0;
 }
 .product-info .container{
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap:50px;
 }
-.product-info .container .product{}
+.product-info .container .product{
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: var(--whitesmoke);
+    border: 2px solid var(--gainsboro);
+}
+.product-info .container .product .product-details{
+    padding: 15px;
+    font-family: "Inter", sans-serif; 
+    font-weight: 600;
+}
+.product-info .container .product .product-details h2{
+    color: var(--black);
+    font-size: 20px;
+}
+.product-info .container .product .product-details span{
+    display: inline-block;
+    margin-bottom: 10px ;
+    font-size: 20px;
+    color: var(--green);
+    
+}
+.product-info .container .product .product-details p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dimgray);
+}
