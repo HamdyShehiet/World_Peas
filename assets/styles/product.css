@@ -48,7 +48,7 @@ img{
     background-color: var(--gainsboro);
 }
 .head-title .container .heading{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 10px;
 }
@@ -86,3 +86,11 @@ img{
     background-color: var(--green);
     color: var(--white);
 }
+.product-info{
+    padding: 15px 0 20px 0;
+}
+.product-info .container{
+    display: flex;
+    align-items: center;
+}
+.product-info .container .product{}
