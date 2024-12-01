@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* font-family: "Newsreader", serif;
+    font-family: "Inter", sans-serif; */
+}
+:root{
+    --white:#FFFFFF;
+    --black:#000000;
+    --green:#426B1F;
+    --gainsboro:#E6E6E6;
+    --dimgray:#6D6D6D;
+    --whitesmoke:#FAFAF5;
+}
+.container{
+    padding: 0 5%;
+    margin: auto;
+    overflow: hidden;
+}
+body{
+    background-color: var(--white);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
